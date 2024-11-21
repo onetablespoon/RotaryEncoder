@@ -82,17 +82,17 @@ resultant number that comes from this process is unique amongst the
 Below are then the coded sequences that we can use to detect KY-040 rotation 
 either in the CW or CCW directions 
  
-  CW
-  CLKR, DTR , CLKF, DTF   -> 3 + 2*1 + 4*2 + 8*0 = 13
-  DTR , CLKF, DTF , CLKR  -> 1 + 2*0 + 4*0 + 8*3 = 29
-  CLKF, DTF , CLKR, DTR   -> 2 + 2*3 + 4*3 + 8*1 = 22
-  DTF , CLKR, DTR , CLKF  -> 0 + 2*1 + 4*1 + 8*2 = 26
+      CW
+      CLKR, DTR , CLKF, DTF   -> 3 + 2*1 + 4*2 + 8*0 = 13
+      DTR , CLKF, DTF , CLKR  -> 1 + 2*0 + 4*0 + 8*3 = 29
+      CLKF, DTF , CLKR, DTR   -> 2 + 2*3 + 4*3 + 8*1 = 22
+      DTF , CLKR, DTR , CLKF  -> 0 + 2*1 + 4*1 + 8*2 = 26
  
-  CCW
-  CLKR, DTF , CLKF, DTR   -> 3 + 2*0 + 4*2 + 8*1 = 19
-  DTF , CLKF, DTR , CLKR  -> 0 + 2*2 + 4*1 + 8*3 = 32
-  CLKF, DTR , CLKR, DTF   -> 2 + 2*1 + 4*3 + 8*0 = 16 
-  DTR , CLKR, DTF , CLKF  -> 1 + 2*3 + 4*0 + 8*2 = 23
+      CCW
+      CLKR, DTF , CLKF, DTR   -> 3 + 2*0 + 4*2 + 8*1 = 19
+      DTF , CLKF, DTR , CLKR  -> 0 + 2*2 + 4*1 + 8*3 = 32
+      CLKF, DTR , CLKR, DTF   -> 2 + 2*1 + 4*3 + 8*0 = 16 
+      DTR , CLKR, DTF , CLKF  -> 1 + 2*3 + 4*0 + 8*2 = 23
  
  Note:
      Please refer to the excellent web page on the rotary encoder
